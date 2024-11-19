@@ -1,0 +1,108 @@
+.popup-container {
+  background-color: #fff;
+  padding: 5%;
+  width: 90%;
+}
+
+.popup-header {
+  text-align: center;
+}
+
+.popup-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.popup-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.popup-label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.popup-input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.popup-button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popup-button {
+  width: 48%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.green-button {
+  background-color: green;
+  color: white;
+}
+
+.blue-button {
+  background-color: blue;
+  color: white;
+}
+
+.text-wrap {
+  position: relative;
+  background-color: white;
+  padding-top: 10px;
+}
+
+.popup-result-textarea {
+  position: relative;
+  min-height: 150px;
+  margin-top: 10px;
+  font-size: 12px;
+  line-height: 1;
+  min-width: 99.5%;
+  max-width: 99.5%;
+  padding: 0;
+  text-wrap: pretty;
+}
+
+.popup-result-textarea::-webkit-s {
+  width: 4px;
+}
+
+.popup-result-textarea::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.popup-result-textarea::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.popup-result-textarea::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+#copy-icon {
+  position: absolute;
+  top: 25px;
+  right: 5px;
+  font-size: medium;
+}
+
+.custom-select {
+  width: 75%;
+  height: 30px;
+  border-radius: 10px;
+  background-color: white;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  text-align: center;
+}
